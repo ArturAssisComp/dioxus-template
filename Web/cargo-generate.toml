@@ -8,4 +8,4 @@ styling = { prompt = "How do you want to create CSS?", choices = [
 router = { prompt = "Should the application use the Dioxus router?", type = "bool", default = true }
 
 [conditional.'styling == "Vanilla"']
-ignore = ["tailwind.config.js", "input.css"]
+ignore = ["input.css"]
